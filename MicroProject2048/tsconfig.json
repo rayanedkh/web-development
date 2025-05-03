@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "module": "es6",
+      "outDir": "out",
+      "sourceMap": true
+    },
+    "include": ["src/**/*.ts"]
+  }
+  

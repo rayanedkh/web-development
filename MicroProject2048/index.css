@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    font-family: Arial, sans-serif;
+}
+h1 {
+    position: fixed;
+    top: 10px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    z-index: 1000; 
+    text-align: center;
+    color: red  ;
+}
+
+.container {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    width: 60px;
+    height: 60px; 
+    background-color: #f4f4f4; 
+    border: 1px solid #000000; 
+    font-size: 24px;
+    font-weight: bold; 
+    color: #333; 
+    text-align: center; 
+    line-height: 60px; 
+}
+
+#affichage, #score {
+    margin: 25px ;
+    font-size: 25px;
+}
+
+/* Couleurs d'arrière-plan pour les différentes valeurs */
+.cell-2 { background-color: #f7e6ad; } /* Jaune pâle pour 2 */
+.cell-4 { background-color: #f7d87c; } /* Jaune plus soutenu pour 4 */
+.cell-8 { background-color: #f4a460; } /* Orange pour 8 */
+.cell-16 { background-color: #f28544; } /* Orange foncé pour 16 */
+.cell-32 { background-color: #f0624d; } /* Rouge orangé pour 32 */
+.cell-64 { background-color: #e53e30; } /* Rouge pour 64 */
+.cell-128 { background-color: #e53015; } /* Rouge foncé pour 128 */
+.cell-256 { background-color: #c72d0a; } /* Rouge plus foncé pour 256 */
+.cell-512 { background-color: #a72505; } /* Rouge brique pour 512 */
+.cell-1024 { background-color: #961e04; } /* Rouge bordeaux pour 1024 */
+.cell-2048 { background-color: #7e0a02; } /* Rouge très foncé pour 2048 */
