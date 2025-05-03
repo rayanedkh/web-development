@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULA ONE: GRAND PRIX RESULTS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>FORMULA ONE: GRAND PRIX RESULTS</h1>
+    </header>
+    <main>
+        <section id="grand-prix-results">
+            <h2>Grand Prix Results</h2>
+            <div id="year-round-select-container">
+                <div>
+                    <label for="year-select">Select a Year:</label>
+                    <select id="year-select">
+                        <option value="">Select a Year</option>
+                        <!-- Years will be dynamically populated -->
+                    </select>
+                </div>
+                <div>
+                    <label for="round-select">Select a Grand Prix:</label>
+                    <select id="round-select">
+                        <option value="">Select a Grand Prix</option>
+                        <!-- Rounds will be dynamically populated -->
+                    </select>
+                </div>
+            </div>
+            <div id="results-container">
+                <!-- Grand Prix results will be inserted here -->
+            </div>
+        </section>
+    </main>
+    <script src="src/app.js"></script>
+</body>
+</html>

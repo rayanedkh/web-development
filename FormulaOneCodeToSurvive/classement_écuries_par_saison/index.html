@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULA ONE: CODE TO SURVIVE</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>FORMULA ONE: CONSTRUCTOR STANDINGS</h1>
+    </header>
+    <main>
+        <section id="constructor-standings">
+            <h2>Constructor Standings by Season</h2>
+            <div id="year-select-container">
+                <label for="year-select">Select a Season:</label>
+                <select id="year-select" onchange="loadConstructorStandings(this.value)">
+                    <option value="">Select a Season</option>
+                    <!-- Options will be dynamically populated -->
+                </select>
+            </div>
+            <div id="standings-container">
+                <!-- Driver standings will be inserted here -->
+            </div>
+        </section>
+    </main>
+    <script src="src/app.js"></script>
+</body>
+</html>

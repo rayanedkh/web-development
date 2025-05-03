@@ -1,0 +1,65 @@
+body {
+    font-family: "Gill Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url('f1_logo.svg');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 10%;
+    background-color: #e10600;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+/* Styles for centering the race select dropdown */
+#race-select {
+    display: block;
+    margin: 0 auto; /* Center the select horizontally */
+    width: 80%; /* Set the width of the select */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* Optional: Style for race details container */
+#race-details {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
