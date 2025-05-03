@@ -1,0 +1,16 @@
+#div_1 {
+    border: 1px solid black;
+    padding: 9px;
+}
+
+#div_2 img {
+    float: left;
+    margin-right: 11px;
+}
+
+/* Ligne vide ici */
+#div_3 {
+    background-color: slategrey;
+    padding: 10px;
+    margin: 15px; 
+}

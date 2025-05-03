@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pie Chart Editor</title>
+    <style>
+        #toolbar {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        button {
+            padding: 5px 10px;
+        }
+        #addForm, #removeForm {
+            display: none;
+            margin: 20px 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+        #MAINSHOW {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            min-height: 100px;
+        }
+        .pie-chart {
+            width: 300px;
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div id="toolbar">
+        <button id="REMOVE">remove element</button>
+        <button id="CLEAR">clear</button>
+        <button id="RESTORE">restore</button>
+        <button id="PIEBUTTON">show piechart</button>
+        <button id="BUTSHOW">show txt</button>
+        <button id="BUT_ADD">add element</button>
+        <button id="LOC_PIEB">show local piechart</button>
+        <button id="SUBMITADD">Add</button>
+    </div>
+
+    <div id="addForm">
+        <h3>Add Element</h3>
+        <label>Title: <input type="text" id="titleTF"></label><br>
+        <label>Value: <input type="number" id="valueTF" min="1"></label><br>
+        <label>Color: <input type="text" id="colorTF" placeholder="red or #ff0000"></label><br>
+        <button id="DOADD">Add</button>
+    </div>
+
+    <div id="removeForm">
+        <h3>Remove Element</h3>
+        <label>Index: <input type="number" id="indexTF" min="0"></label><br>
+        <button id="VALIDREM">Remove</button>
+    </div>
+
+    <div id="MAINSHOW"></div>
+    <div id="pieContainer" style="margin-top: 20px;"></div>
+
+    <script src="test2.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+#div_1 {
+    border: 1px solid black;
+    padding: 9px;
+}
+
+#div_2 img {
+    float: left;
+    margin-right: 11px;
+}
+
+#div_3 {
+    background-color: slategrey;
+    padding: 10px;
+}
+
+.fixed-div {
+    position: fixed;
+    top: 114px;
+    left: 114px;
+    width: 425px;
+    height: 425px;
+    z-index: 10;
+}
+
+.fixed-div:active {
+    visibility: hidden;
+}

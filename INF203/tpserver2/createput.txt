@@ -1,0 +1,9 @@
+curl -X PUT -H "Content-Type: application/json" -d '{
+  "title": "Updated Title: Advanced Studies in RESTful APIs",
+  "journal": "Journal of Web Development",
+  "authors": [
+    "John Doe",
+    "Jane Smith",
+    "New Author"
+  ]
+}' http://localhost:8000/pubref/imaginary

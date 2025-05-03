@@ -1,0 +1,17 @@
+curl -X POST -H "Content-Type: application/json" -d '{
+  "title": "An Imaginary Study on AI-Generated Research Papers",
+  "journal": "Journal of Fictional Computer Science",
+  "year": "2025",
+  "month": "apr",
+  "keywords": "Artificial Intelligence, Imaginary Research, Fictional Studies",
+  "lang": "en",
+  "authors": [
+    "John Doe",
+    "Jane Smith",
+    "AI Assistant"
+  ],
+  "category": "article",
+  "state": "published",
+  "dept": "computer_science",
+  "group": "ai_research"
+}' http://localhost:8000/pubref
