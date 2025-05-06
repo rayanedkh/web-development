@@ -4,7 +4,7 @@ This repository contains several web development projects built using TypeScript
 
 ## 📁 Repository Structure
 
-### 🏎️ FormulaOneCodeToSurvive
+### 🏎️ FormulaOne: Code To Survive
  **Description**: A web application developed using an external API, demonstrating the knowledge acquired during the *Web Development with TypeScript* course.  
  **Technologies**: TypeScript, HTML, CSS, REST APIs.
 
